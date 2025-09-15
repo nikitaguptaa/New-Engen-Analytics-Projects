@@ -1,0 +1,2 @@
+update `ltpautomatedpublisherscorecard.ga_traffic.merged_data`
+set Publisher_Group = 'coupons' where contains_substr(Publisher_Group, 'coupon')
