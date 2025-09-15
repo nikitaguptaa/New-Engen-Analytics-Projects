@@ -1,6 +1,6 @@
 # Google Analytics + Affiliate Network data(Affluent) Traffic Scheduled Queries :
 
-GA_Traffic - Grouping query (Publisher group) for merged data
+## GA_Traffic - Grouping query (Publisher group) for merged data
 This replaces the publisher group 'coupon' with 'coupons' within the merged_data dataset under GA_Traffic table
 
 GA_Traffic - GA_Affluent Merged data
