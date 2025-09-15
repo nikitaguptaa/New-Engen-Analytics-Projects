@@ -1,0 +1,7 @@
+SELECT brandName AS brand_name, date, publisherGroup AS publisher_group, publisherId AS publisher_id, publisherName AS publisher_name, 
+publisherNameMerged AS publisher_name_merged, publisherType AS publisher_type, 
+referralDomain AS referral_domain, 
+split(referralURL,'?') [SAFE_OFFSET(0)] AS referral_url_1, 
+advertiserRevenueNet AS advertiser_revenue_net,
+publisherCommissionExcBonusNet AS publisher_commission_net 
+FROM `ltpautomatedpublisherscorecard.adverity_raw_data.web_40`
